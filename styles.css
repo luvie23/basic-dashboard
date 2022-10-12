@@ -92,7 +92,7 @@ em{
 
 .dash-links:hover{
     background-color: rgba(39, 39, 42, .1);
-    padding: 2px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -147,12 +147,13 @@ button{
     border: 0;
 }
 
-button:hover{
+div>button:hover{
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     padding: 12px 22px 12px 22px;
 
 }
+
 
 .header-button{
     color: #FFFFFF;
@@ -201,7 +202,19 @@ button:hover{
 
 
 #main-content{
+    display: grid;
     height: 89vh;
     background-color:   #E2E8F0;
+    grid-template-columns: 5fr 1fr ;
 
+}
+
+#main-content-cards{
+    border: 1px solid red;
+    display: grid;
+    
+}
+
+#main-content-sidebar{
+    border: 1px solid blue;
 }
