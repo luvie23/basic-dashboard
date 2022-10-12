@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!--
+    img - https://unsplash.com/photos/Mv9hjnEUHR4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,18 +15,34 @@
 <body>
     <div id="main-grid">
         <div id="dashboard" class="main-grid-items">
-            <figure id="logo"></figure>
+            <div id="logo-link"><img  src="./imgs/logo.png" id="logo"> Dashboard </div>
             <section id="options">
-                <span>Home</span>
-                <span>Profile</span>
-                <span>Messages</span>
-                <span>History</span>
-                <span>Tasks</span>
-                <span>Communities</span>
+                <span>🏠 Home</span>
+                <span>🧖 Profile</span>
+                <span>✉️ Messages</span>
+                <span>🕝 History</span>
+                <span>📜 Tasks</span>
+                <span>🧑‍🤝‍🧑 Communities</span>
             </section>
-            <section id="help"></section>
+            <section id="help">
+                <span>⚙️ Settings</span>
+                <span>❔ Support</span>
+                <span>🛡️ Privacy</span>
+            </section>
         </div>
         <header id="header" class="main-grid-items">
+            <nav>
+                <input type="text" placeholder="Search.." id="search-bar">
+                <div id="profile">Name McName</div>
+            </nav>
+
+            <div id="below-nav">
+                <img src="./imgs/profiile.jpg" id="profile-pic">
+                <div id="greeting">Hi there, Name McName (Mcname)</div>
+                <button id="new" class="header-button">New</button>
+                <button id="Upload" class="header-button">Upload</button>
+                <button id="share" class="header-button">Share</button>
+            </div>
 
         </header>
         <div id="main-content" class="main-grid-items">
